@@ -1,8 +1,14 @@
 # Object-Oriented-Analysis-Design-Review-7
-
 ## Defining the System Architecture
 
-Core process 4 - Design
+### 6-Phase SDLC index
+
+1. Identify problem
+2. Plan and monitor project
+3. Analyze details
+4. **Design components**
+5. Build / Develop solution
+6. Deploy / Implement solution
 
 ### Anatomy of Modern Information Systems
 
