@@ -39,7 +39,7 @@
 **World Wide Web (WWW)**
 - All the interconnected resources accessed through the Internet
 
-**Uniform Resource Locator (U R L)**
+**Uniform Resource Locator (URL)**
 - The identifier for the Web to locate a particular resource
 
 **Hyperlink**
@@ -112,11 +112,16 @@ HTTPS (hypertext transfer protocol secure)
 
 #### Distributed Architectures
 
-**Client/Server architecture**
+- Technology architecture
+- Computers, network computers and hardware, and system software
+- Application architecture
+- The software programs and their configuration
+
+##### Client/Server architecture
 - Design part of the application on a server, and part on the client
 - The client requests data from server, the server responds
 
-**3-layer architecture**
+##### 3-layer architecture
 - Client/server architecture with application divided into view layer, logic layer, and data layer
 - View/Presentation layer: the user interface
 - Logic/Model layer: programmed business logic to implement the functions
@@ -130,12 +135,6 @@ HTTPS (hypertext transfer protocol secure)
 3. Logic/model layer may retrieve data from data layer
 4. Logic/model layer reponds answer to view layer
 5. View layer formats the response, and present to user
-
-
-- Technology architecture
-- Computers, network computers and hardware, and system software
-- Application architecture
-- The software programs and their configuration
 
 **Business logic layer**
 - Sits between the presentation and data access layers
@@ -190,56 +189,111 @@ Includes various factors:
 - Any other external influences that may impact system design / operation
 - Designing Application Components
 
+-----
 
 ### Quizzes
 
-A software architecture that divides an application into view, business logic, and data is called a(n) ________.​
-- Three-layer architecture
-
-Which of the following is NOT one of the activities of Core Process 4: Design system components?​
-- Design security and integrity controls
-
-What is a computer that manages shared resources for access across a network called?​
-- A server computer
-
-A set of languages, rules and procedures to facilitate data exchange between among hardware and software components is called a(n) _______.​
-- Protocol
-
-The Internet can be thought of as the network of networks.​
-- True
-
-A three-layer architecture requires at least three computers to be implemented correctly.
-- False
-
-An approach to implementing a software application where little or no software is installed and local computers, where the data is isolated between organizations a service computer is called _______.​
-- Software as a service
-
-In a client/server configuration the term "server" refers to the central computer equipment that houses the core resources.​
-- False
-
-A network diagram and a deployment diagram show basically the same information, just in a different format.
-- False
-
-A network diagram and a location diagram show basically the same information but in a different format.
-- False
+#### Technology Architectures
 
 The set of computing hardware, network hardware and system software used by an organization is called the _________.​
 - Technology architecture
 
+A method of organizing software applications so that the data and core processing is in a central location and access to that core is distributed on user's computing devices is called ________.​
+- Client/server architecture
+
+Amazon.com is a good example of what kind of architecture? 
+- 3-Layer Architecture
+
+##### Distributed Architecture
+
+Which of the following are examples of distributed architectures?
+- three-layer architecture
+- client/server architecture
+
+###### Distributed Arch: 3-Layer Architecture
+
+A software architecture that divides an application into view, business logic, and data is called a(n) ________.​
+- Three-layer architecture
+
+A three-layer architecture requires at least three computers to be implemented correctly.
+- False
+
+In a three-layer architecture, what are the three layers?
+- View layer
+- Business logic layer
+- Data layer
+
+In a three-layer architecture, the application server would be part of which layer? 
+- Business logic layer
+
+
+-----
+
+#### Core Process 4: Design
+
+Describing the environment is one of the detailed activities of core process 4: Design system components.​
+- True
+- Describe the environment
+- Design the user interface
+- Design application components
+
+Which of the following is NOT one of the activities of Core Process 4: Design system components?​
+- Design security and integrity controls
+
+-----
+
+#### Describing the Environment
+
 The activity of Describing the Environment consists of what two key elements?​
 - External systems and technology architecture
 
-A function or service that is called from a Web application to another Web application is called a(n) ________.​
-- Web service
+What is a computer that manages shared resources for access across a network called?​
+- A server computer
+
+The Internet can be thought of as the network of networks.​
+- True
+
+In a client/server configuration the term "server" refers to the central computer equipment that houses the core resources.​
+- False
+
+What does XML stand for?
+- Extensible Markup Language
+
+A personal computing device includes all of the following except:
+- Router
+
+##### Environment: Software
+
+A toolbar might be considered an example of what?
+- Embedded Software
+
+An approach to implementing a software application where little or no software is installed and local computers, where the data is isolated between organizations a service computer is called _______.​
+- Software as a service
 
 System software usually refers to what kind of software?​
 - Operating systems and web servers
 
-The model that best shows how software components are distributed across hardware components is the ________.​
-- Deployment diagram
+##### Environment: Web Service
 
-A method of organizing software applications so that the data and core processing is in a central location and access to that core is distributed on user's computing devices is called ________.​
-- Client/server architecture
+A function or service that is called from a Web application to another Web application is called a(n) ________.​
+- Web service
+
+A set of languages, rules and procedures to facilitate data exchange between among hardware and software components is called a(n):
+- Protocol
+
+What are the characteristics of a Web service?
+- Does not execute on the calling applications computer
+- Returns results encoded as a Web page
+- Is called via a URL
+
+Web-based application is software with the following characteristics: 
+- Uses a browser and web-server
+
+When a URL of a Web resource is embedded within a Web page, it is called a(n):
+- Hyperlink
+
+Given the following URL, what is the correct description of the portion shown in bold? http://**www.barnesandnoble.com**/u/books-best selling-books/379003057
+- The server name
 
 The Internet and the WWW are synonyms.​
 - False
@@ -247,5 +301,24 @@ The Internet and the WWW are synonyms.​
 Which of the following is not a valid Web protocol?​
 - VPN
 
-Describing the environment is one of the detailed activities of core process 4: Design system components.​
-- True
+What is the latest version of HTML?
+- HTML 5
+
+What is the difference between HTTP and HTTPS?
+- Amazon uses HTTPS for credit encryption
+
+When we use the term the Web what is the correct definition?
+- The set of world wide resources that are available over the Internet
+
+-----
+
+#### Architectural Diagrams
+
+A network diagram and a deployment diagram show basically the same information, just in a different format.
+- False
+
+A network diagram and a location diagram show basically the same information but in a different format.
+- False
+
+The model that best shows how software components are distributed across hardware components is the ________.​
+- Deployment diagram
